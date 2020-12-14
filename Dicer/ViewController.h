@@ -7,7 +7,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@protocol TakesPriveKey <NSObject>
+
+- (void)setPrivKey:(NSData*)privKey;
+
+@end
+
+@interface ViewController : UIViewController<UITextFieldDelegate>
 
 
 @end

@@ -16,6 +16,40 @@
 		5806BE162585578300A788A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806BE152585578300A788A6 /* main.m */; };
 		5806BE202585578300A788A6 /* DicerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806BE1F2585578300A788A6 /* DicerTests.m */; };
 		5806BE2B2585578300A788A6 /* DicerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806BE2A2585578300A788A6 /* DicerUITests.m */; };
+		5806BF7725855ECE00A788A6 /* NodeManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF5325855ECE00A788A6 /* NodeManager.c */; };
+		5806BF7825855ECE00A788A6 /* BTCConstants.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF5425855ECE00A788A6 /* BTCConstants.c */; };
+		5806BF7925855ECE00A788A6 /* ScriptToken.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF5525855ECE00A788A6 /* ScriptToken.c */; };
+		5806BF7A25855ECE00A788A6 /* Database.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF5725855ECE00A788A6 /* Database.c */; };
+		5806BF7B25855ECE00A788A6 /* KeyManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF5C25855ECE00A788A6 /* KeyManager.c */; };
+		5806BF7C25855ECE00A788A6 /* MerkleBlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF5E25855ECE00A788A6 /* MerkleBlock.c */; };
+		5806BF7D25855ECE00A788A6 /* BTCUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF5F25855ECE00A788A6 /* BTCUtil.c */; };
+		5806BF7F25855ECE00A788A6 /* base58C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF6325855ECE00A788A6 /* base58C.cpp */; };
+		5806BF8025855ECE00A788A6 /* Transaction.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF6425855ECE00A788A6 /* Transaction.c */; };
+		5806BF8125855ECE00A788A6 /* TransactionTracker.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF6725855ECE00A788A6 /* TransactionTracker.c */; };
+		5806BF8225855ECE00A788A6 /* Notifications.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF6825855ECE00A788A6 /* Notifications.c */; };
+		5806BF8325855ECE00A788A6 /* BasicStorage.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF6A25855ECE00A788A6 /* BasicStorage.c */; };
+		5806BF8425855ECE00A788A6 /* WorkQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF6F25855ECE00A788A6 /* WorkQueue.c */; };
+		5806BF8525855ECE00A788A6 /* Data.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF7125855ECE00A788A6 /* Data.c */; };
+		5806BF8625855ECE00A788A6 /* Node.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF7325855ECE00A788A6 /* Node.c */; };
+		5806BF8725855ECE00A788A6 /* TransactionAnalyzer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BF7425855ECE00A788A6 /* TransactionAnalyzer.c */; };
+		5806C0032585602A00A788A6 /* base58.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFDB2585602A00A788A6 /* base58.cpp */; };
+		5806C0042585602A00A788A6 /* murmur3.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFDF2585602A00A788A6 /* murmur3.c */; };
+		5806C0052585602A00A788A6 /* segwit_addr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFE22585602A00A788A6 /* segwit_addr.c */; };
+		5806C0062585602A00A788A6 /* mysecp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFE32585602A00A788A6 /* mysecp256k1.c */; };
+		5806C0072585602A00A788A6 /* mnemonic.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFE72585602A00A788A6 /* mnemonic.c */; };
+		5806C0082585602A00A788A6 /* english.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5806BFE82585602A00A788A6 /* english.txt */; };
+		5806C0092585602A00A788A6 /* wordlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFE92585602A00A788A6 /* wordlist.c */; };
+		5806C00A2585602A00A788A6 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFEE2585602A00A788A6 /* sha256.c */; };
+		5806C00B2585602A00A788A6 /* valid_signature.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFF02585602A00A788A6 /* valid_signature.c */; };
+		5806C00C2585602A00A788A6 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFF32585602A00A788A6 /* aes.c */; };
+		5806C00D2585602A00A788A6 /* pbkdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFF72585602A00A788A6 /* pbkdf.c */; };
+		5806C00E2585602A00A788A6 /* hmacsha512.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFFC2585602A00A788A6 /* hmacsha512.c */; };
+		5806C00F2585602A00A788A6 /* sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806BFFF2585602A00A788A6 /* sha512.c */; };
+		5806C0102585602B00A788A6 /* rmd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 5806C0022585602A00A788A6 /* rmd160.c */; };
+		5806C01825856D6E00A788A6 /* XpubPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806C01725856D6E00A788A6 /* XpubPage.m */; };
+		5806C02225856D8000A788A6 /* SeedPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806C02125856D8000A788A6 /* SeedPage.m */; };
+		5806C0292586E07000A788A6 /* XpubQRPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806C0282586E07000A788A6 /* XpubQRPage.m */; };
+		5806C0332586E43000A788A6 /* XpubSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806C0322586E43000A788A6 /* XpubSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +88,79 @@
 		5806BE262585578300A788A6 /* DicerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5806BE2A2585578300A788A6 /* DicerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DicerUITests.m; sourceTree = "<group>"; };
 		5806BE2C2585578300A788A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5806BF5025855ECE00A788A6 /* TransactionTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionTracker.h; sourceTree = "<group>"; };
+		5806BF5125855ECE00A788A6 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		5806BF5225855ECE00A788A6 /* PeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerList.h; sourceTree = "<group>"; };
+		5806BF5325855ECE00A788A6 /* NodeManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NodeManager.c; sourceTree = "<group>"; };
+		5806BF5425855ECE00A788A6 /* BTCConstants.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BTCConstants.c; sourceTree = "<group>"; };
+		5806BF5525855ECE00A788A6 /* ScriptToken.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ScriptToken.c; sourceTree = "<group>"; };
+		5806BF5625855ECE00A788A6 /* BasicStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicStorage.h; sourceTree = "<group>"; };
+		5806BF5725855ECE00A788A6 /* Database.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Database.c; sourceTree = "<group>"; };
+		5806BF5825855ECE00A788A6 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		5806BF5925855ECE00A788A6 /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
+		5806BF5A25855ECE00A788A6 /* testnet_blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testnet_blocks.h; sourceTree = "<group>"; };
+		5806BF5B25855ECE00A788A6 /* WorkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkQueue.h; sourceTree = "<group>"; };
+		5806BF5C25855ECE00A788A6 /* KeyManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KeyManager.c; sourceTree = "<group>"; };
+		5806BF5D25855ECE00A788A6 /* TransactionAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionAnalyzer.h; sourceTree = "<group>"; };
+		5806BF5E25855ECE00A788A6 /* MerkleBlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MerkleBlock.c; sourceTree = "<group>"; };
+		5806BF5F25855ECE00A788A6 /* BTCUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BTCUtil.c; sourceTree = "<group>"; };
+		5806BF6025855ECE00A788A6 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		5806BF6325855ECE00A788A6 /* base58C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base58C.cpp; sourceTree = "<group>"; };
+		5806BF6425855ECE00A788A6 /* Transaction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Transaction.c; sourceTree = "<group>"; };
+		5806BF6525855ECE00A788A6 /* NodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeManager.h; sourceTree = "<group>"; };
+		5806BF6625855ECE00A788A6 /* blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blocks.h; sourceTree = "<group>"; };
+		5806BF6725855ECE00A788A6 /* TransactionTracker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TransactionTracker.c; sourceTree = "<group>"; };
+		5806BF6825855ECE00A788A6 /* Notifications.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Notifications.c; sourceTree = "<group>"; };
+		5806BF6925855ECE00A788A6 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		5806BF6A25855ECE00A788A6 /* BasicStorage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BasicStorage.c; sourceTree = "<group>"; };
+		5806BF6B25855ECE00A788A6 /* NodeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeConstants.h; sourceTree = "<group>"; };
+		5806BF6C25855ECE00A788A6 /* ScriptToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptToken.h; sourceTree = "<group>"; };
+		5806BF6D25855ECE00A788A6 /* BTCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCConstants.h; sourceTree = "<group>"; };
+		5806BF6E25855ECE00A788A6 /* KeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyManager.h; sourceTree = "<group>"; };
+		5806BF6F25855ECE00A788A6 /* WorkQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WorkQueue.c; sourceTree = "<group>"; };
+		5806BF7025855ECE00A788A6 /* SqlStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlStructure.h; sourceTree = "<group>"; };
+		5806BF7125855ECE00A788A6 /* Data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Data.c; sourceTree = "<group>"; };
+		5806BF7225855ECE00A788A6 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		5806BF7325855ECE00A788A6 /* Node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Node.c; sourceTree = "<group>"; };
+		5806BF7425855ECE00A788A6 /* TransactionAnalyzer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TransactionAnalyzer.c; sourceTree = "<group>"; };
+		5806BF7525855ECE00A788A6 /* BTCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCUtil.h; sourceTree = "<group>"; };
+		5806BF7625855ECE00A788A6 /* MerkleBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerkleBlock.h; sourceTree = "<group>"; };
+		5806BFDB2585602A00A788A6 /* base58.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base58.cpp; sourceTree = "<group>"; };
+		5806BFDC2585602A00A788A6 /* base58.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = base58.hpp; sourceTree = "<group>"; };
+		5806BFDE2585602A00A788A6 /* murmur3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = murmur3.h; sourceTree = "<group>"; };
+		5806BFDF2585602A00A788A6 /* murmur3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = murmur3.c; sourceTree = "<group>"; };
+		5806BFE12585602A00A788A6 /* segwit_addr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segwit_addr.h; sourceTree = "<group>"; };
+		5806BFE22585602A00A788A6 /* segwit_addr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = segwit_addr.c; sourceTree = "<group>"; };
+		5806BFE32585602A00A788A6 /* mysecp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mysecp256k1.c; path = libraries/mysecp256k1.c; sourceTree = "<group>"; };
+		5806BFE52585602A00A788A6 /* wordlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordlist.h; sourceTree = "<group>"; };
+		5806BFE62585602A00A788A6 /* mnemonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mnemonic.h; sourceTree = "<group>"; };
+		5806BFE72585602A00A788A6 /* mnemonic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mnemonic.c; sourceTree = "<group>"; };
+		5806BFE82585602A00A788A6 /* english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = english.txt; sourceTree = "<group>"; };
+		5806BFE92585602A00A788A6 /* wordlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordlist.c; sourceTree = "<group>"; };
+		5806BFEB2585602A00A788A6 /* hmac_and_pbkdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac_and_pbkdf.h; sourceTree = "<group>"; };
+		5806BFED2585602A00A788A6 /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		5806BFEE2585602A00A788A6 /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		5806BFF02585602A00A788A6 /* valid_signature.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = valid_signature.c; sourceTree = "<group>"; };
+		5806BFF12585602A00A788A6 /* valid_signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = valid_signature.h; sourceTree = "<group>"; };
+		5806BFF32585602A00A788A6 /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		5806BFF42585602A00A788A6 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		5806BFF62585602A00A788A6 /* pbkdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbkdf.h; sourceTree = "<group>"; };
+		5806BFF72585602A00A788A6 /* pbkdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pbkdf.c; sourceTree = "<group>"; };
+		5806BFF92585602A00A788A6 /* hmacsha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmacsha256.h; sourceTree = "<group>"; };
+		5806BFFB2585602A00A788A6 /* hmacsha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmacsha512.h; sourceTree = "<group>"; };
+		5806BFFC2585602A00A788A6 /* hmacsha512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmacsha512.c; sourceTree = "<group>"; };
+		5806BFFE2585602A00A788A6 /* sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
+		5806BFFF2585602A00A788A6 /* sha512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha512.c; sourceTree = "<group>"; };
+		5806C0012585602A00A788A6 /* rmd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rmd160.h; sourceTree = "<group>"; };
+		5806C0022585602A00A788A6 /* rmd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rmd160.c; sourceTree = "<group>"; };
+		5806C01625856D6E00A788A6 /* XpubPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XpubPage.h; sourceTree = "<group>"; };
+		5806C01725856D6E00A788A6 /* XpubPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XpubPage.m; sourceTree = "<group>"; };
+		5806C02025856D8000A788A6 /* SeedPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeedPage.h; sourceTree = "<group>"; };
+		5806C02125856D8000A788A6 /* SeedPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeedPage.m; sourceTree = "<group>"; };
+		5806C0272586E07000A788A6 /* XpubQRPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XpubQRPage.h; sourceTree = "<group>"; };
+		5806C0282586E07000A788A6 /* XpubQRPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XpubQRPage.m; sourceTree = "<group>"; };
+		5806C0312586E43000A788A6 /* XpubSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XpubSettings.h; sourceTree = "<group>"; };
+		5806C0322586E43000A788A6 /* XpubSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XpubSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +191,7 @@
 		5806BDF72585578100A788A6 = {
 			isa = PBXGroup;
 			children = (
+				5806BE3B25855D7A00A788A6 /* BitcoinSpoon */,
 				5806BE022585578100A788A6 /* Dicer */,
 				5806BE1E2585578300A788A6 /* DicerTests */,
 				5806BE292585578300A788A6 /* DicerUITests */,
@@ -104,6 +212,10 @@
 		5806BE022585578100A788A6 /* Dicer */ = {
 			isa = PBXGroup;
 			children = (
+				5806C0302586E41900A788A6 /* XpubSettings */,
+				5806C0262586E05B00A788A6 /* XpubQRPage */,
+				5806C01525856D4D00A788A6 /* XpubPage */,
+				5806C01425856D4700A788A6 /* SeedPage */,
 				5806BE032585578100A788A6 /* AppDelegate.h */,
 				5806BE042585578100A788A6 /* AppDelegate.m */,
 				5806BE062585578100A788A6 /* SceneDelegate.h */,
@@ -135,6 +247,239 @@
 				5806BE2C2585578300A788A6 /* Info.plist */,
 			);
 			path = DicerUITests;
+			sourceTree = "<group>";
+		};
+		5806BE3B25855D7A00A788A6 /* BitcoinSpoon */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFF22585602A00A788A6 /* aes */,
+				5806BFDA2585602A00A788A6 /* base58 */,
+				5806BFEA2585602A00A788A6 /* hmac_and_pbkdf */,
+				5806BFF82585602A00A788A6 /* hmacsha256 */,
+				5806BFFA2585602A00A788A6 /* hmacsha512 */,
+				5806BFE42585602A00A788A6 /* mnemonic */,
+				5806BFDD2585602A00A788A6 /* murmur3 */,
+				5806BFE32585602A00A788A6 /* mysecp256k1.c */,
+				5806BFF52585602A00A788A6 /* pbkdf */,
+				5806C0002585602A00A788A6 /* rmd160 */,
+				5806BFE02585602A00A788A6 /* segwit_addr */,
+				5806BFEC2585602A00A788A6 /* sha256 */,
+				5806BFFD2585602A00A788A6 /* sha512 */,
+				5806BFEF2585602A00A788A6 /* valid_signature */,
+				5806BF4F25855ECE00A788A6 /* code */,
+			);
+			path = BitcoinSpoon;
+			sourceTree = "<group>";
+		};
+		5806BF4F25855ECE00A788A6 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				5806BF5025855ECE00A788A6 /* TransactionTracker.h */,
+				5806BF5125855ECE00A788A6 /* Notifications.h */,
+				5806BF5225855ECE00A788A6 /* PeerList.h */,
+				5806BF5325855ECE00A788A6 /* NodeManager.c */,
+				5806BF5425855ECE00A788A6 /* BTCConstants.c */,
+				5806BF5525855ECE00A788A6 /* ScriptToken.c */,
+				5806BF5625855ECE00A788A6 /* BasicStorage.h */,
+				5806BF5725855ECE00A788A6 /* Database.c */,
+				5806BF5825855ECE00A788A6 /* Data.h */,
+				5806BF5925855ECE00A788A6 /* base58.h */,
+				5806BF5A25855ECE00A788A6 /* testnet_blocks.h */,
+				5806BF5B25855ECE00A788A6 /* WorkQueue.h */,
+				5806BF5C25855ECE00A788A6 /* KeyManager.c */,
+				5806BF5D25855ECE00A788A6 /* TransactionAnalyzer.h */,
+				5806BF5E25855ECE00A788A6 /* MerkleBlock.c */,
+				5806BF5F25855ECE00A788A6 /* BTCUtil.c */,
+				5806BF6025855ECE00A788A6 /* Node.h */,
+				5806BF6325855ECE00A788A6 /* base58C.cpp */,
+				5806BF6425855ECE00A788A6 /* Transaction.c */,
+				5806BF6525855ECE00A788A6 /* NodeManager.h */,
+				5806BF6625855ECE00A788A6 /* blocks.h */,
+				5806BF6725855ECE00A788A6 /* TransactionTracker.c */,
+				5806BF6825855ECE00A788A6 /* Notifications.c */,
+				5806BF6925855ECE00A788A6 /* Database.h */,
+				5806BF6A25855ECE00A788A6 /* BasicStorage.c */,
+				5806BF6B25855ECE00A788A6 /* NodeConstants.h */,
+				5806BF6C25855ECE00A788A6 /* ScriptToken.h */,
+				5806BF6D25855ECE00A788A6 /* BTCConstants.h */,
+				5806BF6E25855ECE00A788A6 /* KeyManager.h */,
+				5806BF6F25855ECE00A788A6 /* WorkQueue.c */,
+				5806BF7025855ECE00A788A6 /* SqlStructure.h */,
+				5806BF7125855ECE00A788A6 /* Data.c */,
+				5806BF7225855ECE00A788A6 /* Transaction.h */,
+				5806BF7325855ECE00A788A6 /* Node.c */,
+				5806BF7425855ECE00A788A6 /* TransactionAnalyzer.c */,
+				5806BF7525855ECE00A788A6 /* BTCUtil.h */,
+				5806BF7625855ECE00A788A6 /* MerkleBlock.h */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		5806BFDA2585602A00A788A6 /* base58 */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFDB2585602A00A788A6 /* base58.cpp */,
+				5806BFDC2585602A00A788A6 /* base58.hpp */,
+			);
+			name = base58;
+			path = libraries/base58;
+			sourceTree = "<group>";
+		};
+		5806BFDD2585602A00A788A6 /* murmur3 */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFDE2585602A00A788A6 /* murmur3.h */,
+				5806BFDF2585602A00A788A6 /* murmur3.c */,
+			);
+			name = murmur3;
+			path = libraries/murmur3;
+			sourceTree = "<group>";
+		};
+		5806BFE02585602A00A788A6 /* segwit_addr */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFE12585602A00A788A6 /* segwit_addr.h */,
+				5806BFE22585602A00A788A6 /* segwit_addr.c */,
+			);
+			name = segwit_addr;
+			path = libraries/segwit_addr;
+			sourceTree = "<group>";
+		};
+		5806BFE42585602A00A788A6 /* mnemonic */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFE52585602A00A788A6 /* wordlist.h */,
+				5806BFE62585602A00A788A6 /* mnemonic.h */,
+				5806BFE72585602A00A788A6 /* mnemonic.c */,
+				5806BFE82585602A00A788A6 /* english.txt */,
+				5806BFE92585602A00A788A6 /* wordlist.c */,
+			);
+			name = mnemonic;
+			path = libraries/mnemonic;
+			sourceTree = "<group>";
+		};
+		5806BFEA2585602A00A788A6 /* hmac_and_pbkdf */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFEB2585602A00A788A6 /* hmac_and_pbkdf.h */,
+			);
+			name = hmac_and_pbkdf;
+			path = libraries/hmac_and_pbkdf;
+			sourceTree = "<group>";
+		};
+		5806BFEC2585602A00A788A6 /* sha256 */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFED2585602A00A788A6 /* sha256.h */,
+				5806BFEE2585602A00A788A6 /* sha256.c */,
+			);
+			name = sha256;
+			path = libraries/sha256;
+			sourceTree = "<group>";
+		};
+		5806BFEF2585602A00A788A6 /* valid_signature */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFF02585602A00A788A6 /* valid_signature.c */,
+				5806BFF12585602A00A788A6 /* valid_signature.h */,
+			);
+			name = valid_signature;
+			path = libraries/valid_signature;
+			sourceTree = "<group>";
+		};
+		5806BFF22585602A00A788A6 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFF32585602A00A788A6 /* aes.c */,
+				5806BFF42585602A00A788A6 /* aes.h */,
+			);
+			name = aes;
+			path = libraries/aes;
+			sourceTree = "<group>";
+		};
+		5806BFF52585602A00A788A6 /* pbkdf */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFF62585602A00A788A6 /* pbkdf.h */,
+				5806BFF72585602A00A788A6 /* pbkdf.c */,
+			);
+			name = pbkdf;
+			path = libraries/pbkdf;
+			sourceTree = "<group>";
+		};
+		5806BFF82585602A00A788A6 /* hmacsha256 */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFF92585602A00A788A6 /* hmacsha256.h */,
+			);
+			name = hmacsha256;
+			path = libraries/hmacsha256;
+			sourceTree = "<group>";
+		};
+		5806BFFA2585602A00A788A6 /* hmacsha512 */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFFB2585602A00A788A6 /* hmacsha512.h */,
+				5806BFFC2585602A00A788A6 /* hmacsha512.c */,
+			);
+			name = hmacsha512;
+			path = libraries/hmacsha512;
+			sourceTree = "<group>";
+		};
+		5806BFFD2585602A00A788A6 /* sha512 */ = {
+			isa = PBXGroup;
+			children = (
+				5806BFFE2585602A00A788A6 /* sha512.h */,
+				5806BFFF2585602A00A788A6 /* sha512.c */,
+			);
+			name = sha512;
+			path = libraries/sha512;
+			sourceTree = "<group>";
+		};
+		5806C0002585602A00A788A6 /* rmd160 */ = {
+			isa = PBXGroup;
+			children = (
+				5806C0012585602A00A788A6 /* rmd160.h */,
+				5806C0022585602A00A788A6 /* rmd160.c */,
+			);
+			name = rmd160;
+			path = libraries/rmd160;
+			sourceTree = "<group>";
+		};
+		5806C01425856D4700A788A6 /* SeedPage */ = {
+			isa = PBXGroup;
+			children = (
+				5806C02025856D8000A788A6 /* SeedPage.h */,
+				5806C02125856D8000A788A6 /* SeedPage.m */,
+			);
+			path = SeedPage;
+			sourceTree = "<group>";
+		};
+		5806C01525856D4D00A788A6 /* XpubPage */ = {
+			isa = PBXGroup;
+			children = (
+				5806C01625856D6E00A788A6 /* XpubPage.h */,
+				5806C01725856D6E00A788A6 /* XpubPage.m */,
+			);
+			path = XpubPage;
+			sourceTree = "<group>";
+		};
+		5806C0262586E05B00A788A6 /* XpubQRPage */ = {
+			isa = PBXGroup;
+			children = (
+				5806C0272586E07000A788A6 /* XpubQRPage.h */,
+				5806C0282586E07000A788A6 /* XpubQRPage.m */,
+			);
+			path = XpubQRPage;
+			sourceTree = "<group>";
+		};
+		5806C0302586E41900A788A6 /* XpubSettings */ = {
+			isa = PBXGroup;
+			children = (
+				5806C0312586E43000A788A6 /* XpubSettings.h */,
+				5806C0322586E43000A788A6 /* XpubSettings.m */,
+			);
+			path = XpubSettings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +587,7 @@
 				5806BE132585578300A788A6 /* LaunchScreen.storyboard in Resources */,
 				5806BE102585578300A788A6 /* Assets.xcassets in Resources */,
 				5806BE0E2585578100A788A6 /* Main.storyboard in Resources */,
+				5806C0082585602A00A788A6 /* english.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +612,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5806C0062585602A00A788A6 /* mysecp256k1.c in Sources */,
+				5806BF7A25855ECE00A788A6 /* Database.c in Sources */,
+				5806BF8225855ECE00A788A6 /* Notifications.c in Sources */,
+				5806BF7C25855ECE00A788A6 /* MerkleBlock.c in Sources */,
 				5806BE0B2585578100A788A6 /* ViewController.m in Sources */,
+				5806C0092585602A00A788A6 /* wordlist.c in Sources */,
+				5806C0332586E43000A788A6 /* XpubSettings.m in Sources */,
+				5806C0292586E07000A788A6 /* XpubQRPage.m in Sources */,
+				5806BF8625855ECE00A788A6 /* Node.c in Sources */,
 				5806BE052585578100A788A6 /* AppDelegate.m in Sources */,
 				5806BE162585578300A788A6 /* main.m in Sources */,
+				5806C0052585602A00A788A6 /* segwit_addr.c in Sources */,
+				5806BF8325855ECE00A788A6 /* BasicStorage.c in Sources */,
 				5806BE082585578100A788A6 /* SceneDelegate.m in Sources */,
+				5806C0032585602A00A788A6 /* base58.cpp in Sources */,
+				5806C02225856D8000A788A6 /* SeedPage.m in Sources */,
+				5806C00F2585602A00A788A6 /* sha512.c in Sources */,
+				5806BF7725855ECE00A788A6 /* NodeManager.c in Sources */,
+				5806BF7925855ECE00A788A6 /* ScriptToken.c in Sources */,
+				5806C00D2585602A00A788A6 /* pbkdf.c in Sources */,
+				5806C00C2585602A00A788A6 /* aes.c in Sources */,
+				5806BF7B25855ECE00A788A6 /* KeyManager.c in Sources */,
+				5806C00A2585602A00A788A6 /* sha256.c in Sources */,
+				5806BF8125855ECE00A788A6 /* TransactionTracker.c in Sources */,
+				5806C01825856D6E00A788A6 /* XpubPage.m in Sources */,
+				5806BF7D25855ECE00A788A6 /* BTCUtil.c in Sources */,
+				5806BF8425855ECE00A788A6 /* WorkQueue.c in Sources */,
+				5806BF7825855ECE00A788A6 /* BTCConstants.c in Sources */,
+				5806BF8525855ECE00A788A6 /* Data.c in Sources */,
+				5806C00E2585602A00A788A6 /* hmacsha512.c in Sources */,
+				5806C0102585602B00A788A6 /* rmd160.c in Sources */,
+				5806BF8025855ECE00A788A6 /* Transaction.c in Sources */,
+				5806C00B2585602A00A788A6 /* valid_signature.c in Sources */,
+				5806C0042585602A00A788A6 /* murmur3.c in Sources */,
+				5806BF8725855ECE00A788A6 /* TransactionAnalyzer.c in Sources */,
+				5806BF7F25855ECE00A788A6 /* base58C.cpp in Sources */,
+				5806C0072585602A00A788A6 /* mnemonic.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

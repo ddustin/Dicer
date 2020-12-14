@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BTCUtil.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    BTCUtilStartup();
+    
     return YES;
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    BTCUtilShutdown();
 }
 
 
